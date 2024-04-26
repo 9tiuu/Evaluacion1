@@ -374,7 +374,7 @@ body {
 .info-main-text {
     display: flex;
     width: 32rem;
-    gap: 1.5rem;
+    gap: 1.8rem;
 }
 
 .info-main-text img {
@@ -400,14 +400,10 @@ body {
 
 /* FOOTER SECTION */
 
-.footer-section {
-    display: flex;
-    justify-content: center;
-    padding: 8rem;
-}
-
 .footer-info {
     display: flex;
+    justify-content: space-between;
+    padding: 5rem 14rem;
 }
 
 .f-text {
@@ -415,10 +411,76 @@ body {
 }
 
 .f-text img {
-    width: 9rem;
+    width: 8rem;
 }
 
 .f-text p {
     color: #7f80a6;
     margin-top: 1.5rem;
+}
+
+.f-rrss {
+    display: flex;
+    gap: 2rem;
+}
+
+.f-rrss img {
+    width: 1.5rem
+}
+
+/* GITHUB INFO STYLES */
+
+.github-profile-section {
+    display: flex;
+    justify-content: center;
+}
+
+.github-info {
+    display: flex;
+    align-items: center;
+    background-color: #22272d;
+    border-radius: 2rem;
+    margin: 2rem 0;  
+    width: 72rem;
+    gap: 5rem;
+}
+
+.g-info1 {
+    background-color: #1c2127;
+    padding: 7rem 5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.g-info1 img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.repositorio, .webdesign {
+    width: 35rem;
+    margin-top: 1rem;
+}
+
+.repositorio:hover, .webdesign:hover {
+    box-shadow: 0 0.5rem 1rem 0 #000000;
+}
+
+.webdesign {
+    border-radius: 0.5rem;
+}
+
+.g-info1 h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.g-info1 p {
+    color: #a4a4a4;
+}
+
+.g-info2 p {
+    margin-top: 1rem;
+    color: #4d85d1;
+    font-weight: bold;
 }
